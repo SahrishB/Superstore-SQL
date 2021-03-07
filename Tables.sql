@@ -44,7 +44,7 @@ CREATE TABLE customer
      region         VARCHAR (50)
   );
 
-CREATE TABLE TRANSACTION
+CREATE TABLE transactions
   (
      transaction_id SERIAL PRIMARY KEY,
      product_id     VARCHAR (50) REFERENCES product (product_id),
