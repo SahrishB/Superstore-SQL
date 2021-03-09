@@ -53,3 +53,4 @@ GROUP  BY transaction_id,
           quantity; 
           
 DROP TABLE tmpx;
+
