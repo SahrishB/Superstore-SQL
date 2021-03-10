@@ -44,7 +44,7 @@ FROM   transactions
 GROUP  BY ship_mode
 ORDER  BY count_of_shipping DESC;
 
---- Alternate solution using CASE statement
+-- Alternate solution using CASE statement
 
 SELECT Sum(CASE ship_mode
              WHEN 'Standard Class' THEN 1
